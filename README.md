@@ -42,9 +42,6 @@ Power BI dashboard
 
 ![Seller Scorecard](dashboard/screenshots/04_seller_scorecard.png)
 
-### OLAP Demo
-
-![OLAP Demo](dashboard/screenshots/05_olap_demo.png)
 
 ---
 
@@ -120,7 +117,6 @@ Power BI dashboard
 - Data quality flags
 - Audit logging
 - Business data marts
-- OLAP drill-down, roll-up and slice demonstration
 - Power BI dashboard
 
 ---
@@ -153,7 +149,6 @@ The final Power BI dashboard is based on the following data marts:
 - `mart.delivery_performance`
 - `mart.customer_satisfaction`
 - `mart.seller_scorecard`
-- `mart.olap_sales_cube`
 
 ---
 
@@ -165,7 +160,6 @@ The Power BI report contains the following pages:
 2. Delivery Performance
 3. Customer Satisfaction
 4. Seller Scorecard
-5. OLAP Demo
 
 ---
 
@@ -238,38 +232,6 @@ This makes data issues traceable and auditable.
 
 ---
 
-## OLAP Operations
-
-The project demonstrates OLAP operations using the `mart.olap_sales_cube` table.
-
-### Drill-down
-
-Example hierarchy:
-
-```text
-year → month → customer_region → customer_state → product_category_name_english
-```
-
-### Roll-up
-
-Example:
-
-```text
-month → year
-customer_state → customer_region
-```
-
-### Slice
-
-Example:
-
-```text
-customer_state = SP
-```
-
-These operations are demonstrated in the Power BI **OLAP Demo** page.
-
----
 
 ## How to Run
 
@@ -358,7 +320,6 @@ The project:
 - uses surrogate keys
 - applies SCD Type 2 strategy
 - creates business-ready data marts
-- demonstrates OLAP operations
 - supports business decision-making with Power BI dashboards
 
 ---
