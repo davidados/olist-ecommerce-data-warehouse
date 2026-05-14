@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large database backups
+*.backup
+*.dump
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Power BI temporary files
+*.tmp
